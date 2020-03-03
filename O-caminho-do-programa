@@ -1,0 +1,150 @@
+Teste seu entendimento
+
+1.1.1: Qual a habilidade mais importante para um cientista da computação?
+a) Pensar como um computador.
+b) Ser capaz de escrever código muito bem.
+c) Ser capaz de resolver problemas. Correta
+d) Ser muito bom de matemática.
+Correct! Cientistas da computação resolvem problemas! Os computadores são utilizados para automatizar as soluções e fazer computações mais rapidamente e com maior precisão que nós conseguimos fazer manualmente.
+
+1.1.2: Um algoritmo é:
+a) Uma solução para um problema que pode ser resolvido por um computador.
+b) Uma lista passo-a-passo de instruções que, caso seguidas exatamente, resolvem o problema sendo considerado. Correta
+c) Uma série de instruções implementadas em uma linguagem de programação.
+d) Um tipo especial de notação usado por cientistas da computação.
+Correct! Algoritmos são como receitas: elas precisam ser seguidas exatamente, elas precisam ser claras e não ter ambiguidades, e precisam ter um fim.
+
+Teste seu entendimento
+
+1.2.1: O que é código fonte?
+a) São as instruções de um programa, armazenadas em um arquivo Correta
+b) A linguagem de programação que você usa (por exemplo, Python)
+c) O ambiente/ferramenta que você usa para programar
+d) A senha (ou “código”) que você precisa fornecer no início de cada programa para que ele possa ser executado.
+Correct! O arquivo que contém as instruções escritas em uma linguagem de alto nível é chamado de arquivo de código fonte.
+
+1.2.2: Qual a diferença entre uma linguagem de programação de alto nível e uma de baixo nível?
+a) Ela é de alto nível se você estiver de pé e de baixo nível se você estiver sentado.
+b) Ela é de alto nível se você estiver programando para um computador e de baixo nível se você estiver programando para um telefone ou dispositivo móvel.
+c) Ela é de alto nível se o programa precisa ser processado antes de rodar, e de baixo nível se o computador pode executá-lo sem processamento adicional. Correta
+d) Ela é de alto nível se ela for fácil de programar e os programas serem curtos, e de baixo nível se for realmente difícil de programar e seus programas ficarem muito longos.
+Correct! Correto. Python é uma linguagem de alto nível que precisa ser interpretada para o código de máquina (binário) antes de ser executada.
+
+1.2.3: Escolha a melhor alternativa para completar os espaços 1 e 2 na seguinte frase:
+Ao comparar compiladores e interpretadores, um compilador é como 1 enquanto um interpretador é como 2.
+a) 1 = um processo, 2 = uma função Correta
+b) 1 = traduzir um livro inteiro, 2 = traduzir uma linha de cada vez
+c) 1 = software, 2 = hardware
+d) 1 = código objeto, 2 = código em bytes.
+Correct! Compiladores pegam todo o código fonte e produzem código objeto ou executável e os interpretadores executam o código linha a linha.
+
+Teste seu entendimento
+
+1.3.1: O interpretador de activecode permite que você (selecione todas as verdadeiras):
+a) Salve programas e (re)carregue programas salvos. Correta
+b) Digitar programas em Python. Correta
+c) Executar código Python diretamente no texto do navegador. Correta
+d) Receber uma resposta sim/não sobre se o código está correto ou não.
+Correct!
+a: Você pode (e deve) salvar o seu programa na janela do activecode.
+b: Você não precisa se limitar a rodar os programas que já estão lá. Experimente modificar ou criar o seu próprio programa.
+c: O interpretador de activecode permite que você digite código Python na caixa de texto, que pode ser executado.
+
+1.3.2: O codelens permite (selecione todas as verdadeiras):
+a) Medir a velocidade de execução de um programa.
+b) Controlar a execução de um programa passo-a-passo. Correta
+c) Escrever e executar seu próprio programa em Python.
+d) Executar o código Python que estiver no Codelens. Correta
+Correct! 
+b: Ao utilizar o Codelens, você pode controlar a execução do programa passo-a-passo. Você pode até voltar na execução!
+d: Executa o código Python que estiver no Codelens.
+
+Teste seu entendimento
+
+1.4.1: Um programa é:
+a) Uma sequência de instruções que especifica como uma computação é realizada. Correta
+b) Algo que você segue em uma peça de teatro ou concerto.
+c) Uma computação, mesmo uma computação simbólica.
+d) O mesmo que um algoritmo.
+Correct! É apenas uma sequência de instruções passo-a-passo que o computador consegue entender e executar. Em geral, um programa implementa um algoritmo, mas note que algoritmos são tipicamente menos precisos que programas e não precisam ser escritos em uma linguagem de programação.
+
+Teste seu entendimento
+
+1.5.1: Depuração é:
+a) Encontrar erros de programação e corrigí-los. Correta
+b) Filtrar o ar para eliminar o mal cheiro.
+c) Encontrar todos os bugs em um programa.
+d) Corrigir todos os bugs em um programa.
+Correct! Erros de programação, conhecidos como bugs, são encontrados e removidos pelo processo de depuração.
+
+Teste seu entendimento
+
+1.6.1: Qual alternativa corresponde a um erro de sintaxe?
+a) Tentativa de divisão por 0
+b) Esquecer de digitar dois pontos (:) no final de um comando, quando necessário.
+c) Esquecer de dividir por 100 ao imprimir a porcentagem de uma quantia.
+Correct! Este é um problema com a estrutura formal do programa. O Python sabe onde os dois pontos são necessários e pode detectar quando um está faltando simplesmente olhando o código sem executá-lo.
+
+1.6.2: Quem ou o que, tipicamente, encontra erros de sintaxe?
+a) Programador
+b) Compilador / Interpretador
+c) Computador
+d) Professor / Instrutor
+Correct! O compilador e/ou o interpretador é um programa que determina se o seu programa está escrito de forma que possa ser traduzido para linguagem de máquina e executado.
+Teste seu entendimento
+
+1.7.1: Qual alternativa corresponde a um erro de execução?
+a) Tentativa de divisão por 0 Correta
+b) Esquecer de digitar dois pontos (:) no final de um comando, quando necessário.
+c) Esquecer de dividir por 100 ao imprimir a porcentagem de uma quantia. 
+Correct! O interpretador Python normalmente não pode dizer se você está tentando dividir por 0 até que esteja executando o programa (por exemplo, o programa pode pedir ao usuário para entrar com um valor e depois dividir por esse valor, e você não tem como saber qual o valor que o usuário vai entrar antes de executar o programa).
+
+Teste seu entendimento
+
+1.8.1: Qual alternativa corresponde a um erro semântico?
+a) Tentativa de divisão por 0
+b) Esquecer de digitar dois pontos (:) no final de um comando, quando necessário.
+c) Esquecer de dividir por 100 ao imprimir a porcentagem de uma quantia. Correta
+Correct! Isso irá produzir uma resposta errada, mas o Python não vai considerá-la um erro. O programador é que entende que a resposta produzida está errada.
+
+Teste seu entendimento
+
+1.9.1: A diferença entre programação e depuração e:
+a) Programação é o processo de depurar um programa gradualmente até que ele faça o que você quer. Correta
+b) Programação é criativa e depuração é rotina.
+c) Programação é divertimento e depuração é trabalho.
+d) Não há diferenças entre elas.
+Correct! Programar é escrever o código fonte e depurar é o processo de encontrar e corrigir todos os erros até que o programa esteja correto.
+
+Teste seu entendimento
+
+1.10.1: Entre as diferenças das linguagens formais e naturais podemos citar:
+a) Linguagens naturais podem ser analisadas e as linguagens formais não.
+b) Ambiguidade, redundância e literalidade. Correta
+c) Não há diferença entre linguagens formais e naturais
+d) Tokens, estrutura, sintaxe e semântica
+Correct! Todas essas podem estar presentes em linguagens naturais mas não podem existir em linguagens formais.
+
+1.10.2: Verdadeiro ou Falso: ler um programa é como ler outras formas de texto.
+a) Verdadeiro
+b) Falso Correta
+Correct! Em geral gasta-se mais tempo para ler um programa pois como a sua estrutura é tão importante quanto o conteúdo, o programa deve ser lido em pedaços pequenos para facilitar o seu entendimento.
+
+Teste seu entendimento
+
+1.11.1: A função print:
+a) Manda informação para a impressora, para ser impressa em papel.
+b) Mostra um valor na tela. Correta
+c) Diz ao computador para colocar a informação no formato print, ao invés do formato cursivo.
+d) Diz ao computador para falar a informação.
+Correct! Sim, a função print mostra o valor do objeto passado para a função na tela.
+
+Teste seu entendimento
+
+1.12.1: Para que servem comentários?
+a) Para dizer ao computador o que você quer do seu programa.
+b) Para as pessoas que forem ler o seu código saberem, em linguagem natural, o que o programa está fazendo. Correta
+c) Nada, são informações desnecessárias.
+d) Nada em um programa pequeno. Eles são necessários apenas em programas grandes.
+Correct! O computador ignora os comentários. Essas informações são voltadas para os humanos.
+
