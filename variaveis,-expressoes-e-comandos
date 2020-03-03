@@ -1,0 +1,137 @@
+Teste seu entendimento
+
+2.1.1: Como você pode determinar o tipo de uma variável?
+a) Imprimindo o valor e determinando o tipo de baseado no valor exibido.
+b) Usando a função type. CORRETO
+c) Usando o valor em uma equação conhecida e imprimindo o valor resultante.
+d) Olhando para a declaração da variável.
+
+2.1.2: Qual é o tipo do valor 'que tipo de dado é esse'?
+a) caractere
+b) inteiro
+c) float
+d) string CORRETO
+Correct! Strings podem ser envolvidas por apóstrofos.
+
+Teste seu entendimento
+
+2.2.1: Qual valor é exibido pelo seguinte comando:
+
+print( int(53.785) )
+
+a) Nada, é produzido um erro de execução.
+b) 53 CORRETO
+c) 54
+d) 53.785
+
+Teste seu entendimento
+
+2.3.2: Qual é o valor impresso ao final da seguinte sequência de comandos?
+
+dia = "quinta-feira"
+dia = 32.5
+dia = 19
+print(dia)
+
+a) Nada é impresso, ocorre um erro de execução.
+b) quinta-feira
+c) 32.5
+d) 19 CORRETO
+Correct! A variável dia contém o último valor que lhe foi atribuído antes do comando de impressão.
+
+Teste seu entendimento
+
+2.4.1: Verdadeiro ou falso: o seguinte nome é legal para uma variável em Python: Uma_boa_nota_é_A+
+a) Verdadeiro
+b) Falso CORRETO
+Correct! - O caractere + não é permitido no nome de uma variável (tod o resto neste nome é legal, inclusive acento).
+
+Teste seu entendimento
+
+2.6.1: O que imprime o seguinte comando?
+
+print (18 / 4)
+
+a) 4.5 CORRETO
+b) 5
+c) 4
+d) 2
+
+2.6.2: O que imprime o seguinte comando?
+
+print (18 // 4)
+
+a) 4.25
+b) 5 CORRETO
+c) 4
+d) 2
+
+2.6.3: O que imprime o seguinte comando?
+
+print (18 % 4)
+
+a) 4.25
+b) 5
+c) 4
+d) 2 CORRETO
+Correct! O operador % retorna o resto da divisão.
+
+Teste seu entendimento
+
+2.7.1: O que é impresso pelo seguinte comando?
+
+n = input("Por favor, entre com sua idade: ")
+# usuário entra com 18
+print ( type(n) )
+
+a) <class 'str'> CORRETO
+b) <class 'int'>
+c) <class 18>
+d) 18
+
+Teste seu entendimento
+
+2.8.1: Qua é o valor a expressão a seguir?
+
+16 - 2 * 5 // 3 + 1
+
+a) 14 CORRETO
+b) 24
+c) 3
+d) 13.667
+
+2.8.2: What is the value of the following expression:
+
+2 ** 2 ** 3 * 3
+
+a) 768 CORRETO
+b) 128
+c) 12
+d) 256
+
+Teste seu entendimento
+
+2.9.1: Depois das atribuições a seguir, quais são os valores de x e y?
+
+x = 15
+y = x
+x = 22
+
+a) x é 15 e y é 15
+b) x é 22 e y é 22
+c) x é 15 e y é 22 CORRETO
+d) x é 22 e y é 15
+
+Teste o seu entendimento
+
+2.10.1: O que é impresso pelo comando a seguir?
+
+x = 12
+x = x - 1
+print (x)
+
+a) 12
+b) -1
+c) 11 CORRETO
+d) Nada. Ocorre um erro pois x não pode igual a x - 1
+
