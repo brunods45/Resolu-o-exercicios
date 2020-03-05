@@ -1,0 +1,96 @@
+Teste o seu entendimento
+
+3.1.1: Considere o seguinte código:
+
+import turtle
+wn = turtle.Screen()
+alex = turtle.Turtle()
+alex.forward(150)
+alex.left(90)
+alex.forward(75)
+Para que serve a linha "import turtle"?
+ a) Ela cria um novo objeto turtle que pode ser utilizado para desenhar
+ b) Ela nos permite criar um objeto chamado Turtle que pode ser usado para desenhar  CORRETO
+ c) Ele faz a tartaruga desenhar metade de um retângulo na janela
+ d) Nada, a linha é desnecessária
+Correct! Essa linha carrega o módulo chamado turtle, que contém todas as funções necessárias para desenhar com objetos do tipo Turtle
+3.1.2: Por que é necessário escrever "turtle.Turtle()" para se criar um novo objeto Turtle?
+
+ a) Apenas para melhorar a clareza. Podemos escrever também "Turtle()" ao invés de "turtle.Turtle()"
+ b) O ponto (.) diz ao Python que queremos criar um novo objeto.
+ c) O primeiro "turtle" (antes do ponto) diz ao Python que estamos nos referindo ao módulo turtle, que é onde o objeto "Turtle" deve ser encontrado. CORRETO
+Correct! Sim, o tipo Turtle é definido no módulo turtle. Lembre-se que Python trata letras maiúsculas e minúsculas de forma diferente, ou seja, Turtle é diferente de turtle.
+3.1.3: Verdadeiro ou Falso: O objeto Turtle pode ter qualquer nome, desde que o nome siga a convenção descrita no capítulo 2.
+
+ a) Verdadeiro CORRETO
+ b) Falso
+Correct! No capítulo vimos um objeto nomeado alex e outro tess, mas qualquer outro nome que siga a conveção é permitido.
+
+Teste o seu entendimento
+
+3.2.1: Verdadeiro ou Falso: você pode ter apenas uma tartaruga ativa de cada vez. Se você criar uma segunda, você não será mais capaz de acessar ou usar a primeira.
+
+ a) Verdadeiro
+ b) Falso CORRETO
+Correct! Você pode criar e usar tantas tartarugas desejar. Desde que elas tenham nomes diferentes, você pode operá-las de forma independente, e fazê-las se mover em qualquer ordem que desejar. Para se convencer de que isso é verdade, tente intercalar as instruções para o alex e a tess na caixa 3 do ActiveCode.
+
+Check your understanding
+
+3.4.1: Quantas linhas são impressas pelo código a seguir?
+
+for numero in [5, 4, 3, 2, 1, 0]:
+    print("Eu tenho", numero, "biscoitos. Vou comer um.")
+ a) 1
+ b) 5
+ c) 6 Correto
+ d) 10
+Correct! O corpo do laço será executado (e imprimira uma linha) para cada um dos 6 elementos na lista [5, 4, 3, 2, 1, 0]
+3.4.2: Como o Python sabe quais linhas fazem parte do corpo do laço?
+
+ a) As linhas ficam recuadas um tab do cabeçalho do laço CORRETO
+ b) Sempre há apenas 1 linha no corpo do laço
+ c) O corpo do laço termina com um ponto e vírgula (;) que não foi mostrado no código acima
+Correct! O corpo do laço pode ter um número de linhas qualquer, todas recuadas do cabeçalho do laço.
+3.4.3: No código a seguir, qual o valor de numero da segunda vez que o Python executa o laço?
+
+for numero in [5, 4, 3, 2, 1, 0]:
+    print("Eu tenho", numero, "biscoitos. Vou comer um.")
+ a) 2
+ b) 4 CORRETO
+ c) 5
+ d) 1
+Correct! Sim, o Python processa os itens da esquerda para a direita, assim da primeira vez o valor é 5 e da segunda é 4.
+3.4.4: Considere o seguinte código:
+
+for aColor in ["yellow", "red", "green", "blue"]:
+   alex.forward(50)
+   alex.left(90)
+O que cada iteração do loop (ou seja, "pedaço de código") faz?
+ a) Desenha um lado de um quadrado, usando a mesma cor todas as vezes. CORRETO
+ b) Desenha um lado de um quadrado, usando uma cor diferente a cada vez.
+ c) Desenha um quadrado completo.
+Correct! Os itens da lista não são realmente utilizados para controlar a cor da tartaruga porque aColor nunca é usado dentro do laço.
+
+Teste o seu entendimento
+
+3.5.1: No comando range(3, 10, 2), o que é definido pelo segundo argumento (10)?
+
+ a) Range deve gerar uma lista que pára em 9 (incluindo 9). CORRETO
+ b) Range deve gerar uma lista que começa em 10 (incluindo 10).
+ c) Range deve gerar uma lista a partir de 3, que pára em 10 (incluindo 10).
+ d) Range deve gerar uma lista usando todo décimo número entre o início e o fim.
+Correct! Range vai gerar a lista [3, 5, 7, 9]
+3.5.2: Que comando gera a lista [2, 5, 8]?
+
+ a) range(2, 5, 8)
+ b) range(2, 8, 3)
+ c) range(2, 10, 3) CORRETO
+ d) range(8, 1, -3)
+Correct! The first number is the starting point, the second is the maximum allowed, and the third is the amount to increment by.
+3.5.3: O que acontece quando range recebe apenas um argumento? Por exemplo: range(4)
+
+ a) Range vai gerar uma lista começando em 0, com todos os números até, mas não incluindo, o argumento que foi passado. CORRETO
+ b) Range vai gerar uma lista começando em 1, com todos os números até, mas não incluindo, o argumento que foi passado.
+ c) Range vai gerar uma lista começando em 1, com todos os números até o argumento que foi passado, incluindo o mesmo.
+ d) A chamada causa um erro: range requer sempre 3 argumentos.
+Correct! Sim, se você passar apenas um argumento, ele começa com zero e termina um número antes do argumento especificado.
